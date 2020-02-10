@@ -17,14 +17,14 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
-
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
 h3 {
   font-family: sans-serif;
   font-weight: bold;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 .navbar-dark .navbar-brand {
@@ -72,4 +72,19 @@ p {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
