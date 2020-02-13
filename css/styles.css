@@ -113,12 +113,44 @@ h3 {
 /* pricing section */
 
 #pricing {
-  padding: 100px;
+  padding: 7% 15%;
   text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.cta-h3 {
+  padding-bottom: 30px;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.copyright {
+  padding: 10px 0px 0px;
+  margin: auto;
+  background-color: #fff;
+}
+.icon-margins {
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
@@ -129,30 +161,4 @@ h3 {
     position: static;
     transform: rotate(0);
   }
-}
-
-/* cta */
-
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 100px;
-  font-family: sans-serif;
-  color: #fff;
-}
-
-.cta-h3 {
-  padding-bottom: 30px;
-}
-
-/* footer */
-
-#footer {
-  text-align: center;
-  padding: 40px;
-}
-
-.copyright {
-  padding: 10px 0px 0px;
-  margin: auto;
 }
